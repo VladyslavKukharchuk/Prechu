@@ -1,0 +1,153 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 44px;
+    color: #909090;
+    font-size: 20px;
+}
+
+.visual-text {
+    line-height: 50px;
+}
+
+.visual-text h1 {
+    font-size: 42px;
+}
+
+.visual-textholder p {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.box-text p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.shopping h2{
+    font-size: 42px;
+    padding-left: 55px;
+} 
+
+.shopping-text h3 {
+    font-size: 26px;
+} 
+
+.shopping-text p {
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.box-text p {
+    font-size: 12px;
+}
+
+@media(max-width: 1024px) {
+    .body {
+        line-height: 38px;
+        font-size: 18px;
+    }
+
+    .visual-text {
+        line-height: 40px;
+    }
+
+    .visual-text h1 {
+        font-size: 32px;
+    }
+    
+    .visual-textholder p {
+        font-size: 20px;
+    }
+    
+    .box-text p {
+        font-size: 12px;
+    }
+    
+    .shopping h2{
+        font-size: 38px;
+        padding-left: 45px;
+    } 
+    
+    .shopping-text h3 {
+        font-size: 22px;
+    } 
+}
+
+@media(max-width: 768px) {
+    .body {
+        line-height: 28px;
+        font-size: 16px;
+    }
+
+    .menu__btn span,
+    .menu__box a {
+        font-size: 18px;
+    }
+
+    .menu__box a {
+        font-size: 18px;
+    }
+
+    .visual-text h1 {
+        font-size: 36px;
+        line-height: 70px;
+    }
+    
+    .visual-textholder p {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .box-text h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .box-text p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .shopping h2{
+        font-size: 34px;
+    } 
+    
+    .shopping-text h3 {
+        font-size: 26px;
+    } 
+    
+    .shopping-text p {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 480px) {
+    .body {
+        line-height: 26px;
+        font-size: 12px;
+    }
+
+    .visual-text h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+    .visual-textholder p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .box-text h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .box-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .shopping-text h3 {
+        font-size: 18px;
+    }  
+}

@@ -1,0 +1,413 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.header-img img {
+    display: block;
+    margin: auto 0;
+}
+
+
+.menu__box li {
+    display: inline-block;
+    padding: 25px 15px;
+    margin: 0 5px;
+}
+
+.menu__box a {
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+.menu__box a:hover {
+    color: #5094f2;
+}
+
+.active {
+    border-bottom: 3px solid #4f94f2;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+.menu__btn {
+    display: none;
+    z-index: 5;
+    position: relative;
+}
+
+.menu__box {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.visual {
+    background-image: url("../img/phone-bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+.visual .container {
+    padding-top: 99px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-img {
+    margin: 0 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.visual-text {
+    margin-left: 40px;
+}
+
+.visual-textholder {
+    max-width: 250px;
+}
+
+.sing {
+    display: inline-block;
+    background-color: #4f94f2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 40px 10px;
+}
+
+.sing a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.grid.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    padding: 60px 0px 40px;
+    text-align: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.circle.blue {
+    background-color: #4f94f2;
+}
+
+.circle.red {
+    background-color: #d94748;
+}
+
+.circle.yellow {
+    background-color: #ebbb11;
+}
+
+.box img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-text {
+    max-width: 250px;
+}
+
+.box-text h3 {
+    color: #5094f2;
+    margin-top: 25px;
+}
+
+.shopping.container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.shopping-content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shopping-img {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 35%;
+}
+
+.shopping-text {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.shopping-text p {
+    padding-top: 35px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    border-top: 1px solid #7d7f8372;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #909090;
+}
+
+.footer a:hover {
+    color: #5094f2;
+}
+
+@media(max-width: 1024px) {
+
+    .header-img img {
+        width: 150px;
+    }
+
+    .nav li {
+        padding: 15px 10px;
+    }
+
+    .visual .container {
+        padding-top: 71px;
+    }
+
+    .visual-text {
+        margin-left: 0px;
+    }
+
+    .grid.container {
+        justify-content: space-around;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .box img {
+        width: 75px;
+    }
+
+    .box-text {
+        max-width: 200px;
+    }
+
+    .shopping.container {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+
+    .shopping-text p {
+        padding-top: 25px;
+    }
+
+    .shopping-text {
+        padding-left: 0px;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+    .header-img img {
+        width: 130px;
+    }
+
+    .nav li {
+        padding: 10px ;
+        margin: 10px auto;
+    }
+
+    .nav a {
+        padding: 40px;
+    }
+
+    .visual .container {
+        min-height: 100vh;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .visual-img {
+        margin: 0;
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    .grid.container {
+        margin: 60px 0px;
+        flex-direction: column;
+    }
+
+    .visual-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sing {
+        padding: 10px 20px;
+        margin: 20px;
+    }
+
+    .grid.container {
+        margin: 40px 0px;
+        flex-direction: column;
+    }
+
+    .circle {
+        width: 225px;
+        height: 225px;
+    }
+
+    .box img {
+        width: 100px;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .box-text {
+        max-width: 400px;
+    }
+
+    .shopping.container {
+        min-height: 80vh;
+        margin: 0;
+    }
+
+    .shopping.container h2 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .shopping-content {
+        flex-direction: column;
+    }
+
+    .shopping-img {
+        width: 55%;
+    }
+
+    .shopping-text h3 {
+        text-align: center;
+    }
+
+    .shopping-text {
+        width: 80%;
+    }
+
+    .menu__btn {
+        display: inline-block;
+        padding: 20px 15px;
+        margin: 0 5px;
+    }
+
+    .menu__btn {
+        color: #6c6c6c;
+    }
+
+    .menu__btn span:hover {
+        color: #5094f2;
+    }
+
+    .menu__box {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background: rgba(17, 17, 17, 0.66);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 0.2s linear;
+        padding-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu__box li {
+        color: #fff;
+    }
+
+    .menu__box a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    #menu__toggle:checked~.menu__box {
+        transform: translateX(0);
+    }
+
+    #menu__toggle:checked~.menu__btn {
+        color: #fff;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .visual-img {
+        width: 250px;
+    }
+
+    .circle {
+        width: 130px;
+        height: 130px;
+    }
+
+    .box {
+        padding: 20px 0;
+    }
+
+    .box img {
+        width: 50px;
+    }
+
+    .box-text {
+        max-width: 250px;
+    }
+
+    .shopping.container {
+        padding-bottom: 45px;
+    }
+}
